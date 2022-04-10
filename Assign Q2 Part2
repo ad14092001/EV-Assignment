@@ -1,0 +1,12 @@
+//Create an API that will return a sorted List of "Fruit" objects based on color
+
+const list = [
+    
+  { color: 'RED' ,  name: 'APPLE' },
+  { color: 'Yellow', name: 'BANANA'},
+  { color: 'Yellow', name: 'MANGO'  },
+  {  color: 'Yellow', name: 'GRAPES' }
+  
+]
+
+var sortedArray = list.sort((a, b) => (a.color > b.color) ? 1 : -1)
