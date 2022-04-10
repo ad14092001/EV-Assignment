@@ -1,0 +1,16 @@
+// Create a class "Fruit" with the following fields: id, name, color
+class Fruit {
+	constructor(id, name, color) {
+	    this.id = id;
+		this.name = name;
+		this.color = color;
+	}
+	introduction() {
+		return `My id is ${id} and name is ${name} and My color is ${color}!`;
+	}
+}
+
+let ankit = new Fruit(1, "BANANA", "Yellow");
+console.log(ankit.introduction());
+let puja = new Fruit(2, "MANGO", "Yellow");
+console.log(puja.introduction());
